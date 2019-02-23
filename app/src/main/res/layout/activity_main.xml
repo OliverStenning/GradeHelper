@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".view.MainActivity">
 
     <TextView
         android:id="@+id/overallGradeText"
@@ -18,7 +18,7 @@
         android:textSize="64sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="67%" />
+        tools:text="34%" />
 
     <TextView
         android:id="@+id/overallGradeLabel"
@@ -45,7 +45,7 @@
         android:textSize="64sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="34%" />
+        tools:text="67%" />
 
     <TextView
         android:id="@+id/averageGradeLabel"

@@ -1,13 +1,15 @@
-package co.stenning.gradehelper;
+package co.stenning.gradehelper.view;
 
 import androidx.appcompat.app.AppCompatActivity;
+import co.stenning.gradehelper.R;
+
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class ModuleActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_module);
     }
 }

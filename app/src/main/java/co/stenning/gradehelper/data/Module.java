@@ -11,6 +11,7 @@ public class Module {
     public Module(String code, String name) {
         this.code = code;
         this.name = name;
+        work = new ArrayList<>();
     }
 
     public double getGrade() {
@@ -21,6 +22,27 @@ public class Module {
         return grade;
     }
 
+    public String getCode() {
+        return code;
+    }
 
+    public void setCode(String code) {
+        this.code = code;
+    }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public ArrayList<Work> getWork() {
+        return work;
+    }
+
+    public void setWork(ArrayList<Work> work) {
+        this.work = work;
+    }
 }

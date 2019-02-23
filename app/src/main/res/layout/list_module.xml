@@ -2,27 +2,48 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
     android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/moduleCodeText"
+    <LinearLayout
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="TextView"
-        tools:text="ELEC1200" />
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/moduleNameText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="4"
-        tools:text="Electronic Circuits" />
+        <TextView
+            android:id="@+id/moduleCodeText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/dosis_semibold"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:textColor="@color/colorText"
+            android:textSize="18sp"
+            tools:text="ELEC1200" />
+
+        <TextView
+            android:id="@+id/moduleNameText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/dosis"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:textColor="@color/colorText"
+            android:textSize="18sp"
+            tools:text="Electronic Circuits" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/moduleGrade"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1" />
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/abel"
+        android:textColor="@color/colorText"
+        android:textSize="36sp"
+        tools:text="67%" />
 </LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GradeHelper</string>
+
+    <string name="overall_label">Overall Grade</string>
+    <string name="average_label">Average Grade</string>
+
+    <string name="modules_label">Modules:</string>
+
+</resources>
